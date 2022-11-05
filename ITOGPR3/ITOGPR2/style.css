@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Scheherazade+New&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+   
+    text-decoration: none;
+}
+h1, h2, h3{
+    font-family: 'Scheherazade New', serif;
+}
+header img{
+    width: 150px;
+    margin-left: 45px;
+}
+header{
+    font-size: 20px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-right: 45px;
+}
+main{
+    font-size: 18px;
+    padding: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+h1{
+    font-size: 68px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.button{
+    text-align: center;
+    padding: 20px 50px;
+   
+    
+}
+.button-container{
+    margin-top: 75px;
+}
+
+.animation{
+    animation: move 1.5s 1;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.animation2{
+    animation: move2 1.5s 1;
+    position: absolute;
+    right: 75px;
+    top: 70px;
+    width: 600px;
+    height: 450px;
+    
+}
+@keyframes move{
+    0%{
+        left: -200vw;
+    }
+    100%{
+        left: 0vw;
+    }
+}
+@keyframes move2{
+    0%{
+        right: -200vw;
+    }
+    100%{
+        right: 0vw;
+    }
+}
+.two{
+    margin-top: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-image: url('/img/Rectangle\ 3\ \(3\).png');
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+
+}
+.arrow img{
+    margin-right: 10px;
+}
+
+.logotypes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tree>img{
+    width: 30%;
+}
+.tree{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+}
+.four{
+    padding: 100px;
+}
+.backg{
+    background-image: url('/img/saratov4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+}
+.offer{
+    text-align: center;
+    font-size: 96px;
+}
+.five{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.six-container{
+    display: flex;
+    justify-content: space-around;
+}
+.six-article{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.six{
+    padding: 60px;
+}
+.six-article img{
+    margin-right: 20px;
+}
+.line{
+    background-color: #454545;
+    height: 1px;
+    width: 100%;
+}
+footer{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container{
+    display: flex;
+
+}
+.footer-container p{
+    margin-right: 45px;
+}
+footer h2{
+    margin-bottom: 0;
+}
+body {
+    padding: 10px;
+  }
+  
+.carousel {
+    position: relative;
+    width: 312px;
+    padding: 10px 40px;
+    border: 1px solid #CCC;
+}
+  
+.carousel img {
+    width: 312px;
+    height: 400px;
+    /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+    display: block;
+}
+  
+  .arrow {
+    position: absolute;
+    top: 47%;     /* располагаем стрелки примерно посередине карусели */
+    padding: 2px;
+    font-size: 18px;
+    color: #000;
+    display: block;
+  }
+  
+
+  
+  .prev {
+    left: 7px;
+  }
+  
+  .next {
+    right: 7px;
+  }
+  
+  .gallery {
+    width: 312px;
+    overflow: hidden;
+  }
+  
+  .gallery ul {
+    height: 400px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 200ms;
+    /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+    font-size: 0;
+  }
+  
+  .gallery li {
+    display: inline-block;
+  }
+  .images10{
+      height: 422px;
+      margin-left: 30px;
+}
+.sar2{
+    display: flex;
+    height: 600px;
+    width: 700px;
+    top: 100px;
+}
+.sdf{
+    width: 400px;
+}
+.sdf2{
+    width: 800px;
+    height: 600px;
+}
+.lightTheme{
+    background-color: #fff;
+    color: #000;
+}
+.lightTheme a{
+    color: #000;
+}
+.lightTheme .button:hover{
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+}
+.lightTheme .background{
+    color: #fff;
+}
+.lightTheme .line{
+    background-color: #454545;
+}
+.lightTheme .carousel{
+    border: 1px solid #CCC;
+}
+.lightTheme .arrow:hover{
+    background-color: orange;
+}
+.darkTheme{
+    background-color: #454545;
+    color: rgb(212, 212, 212);
+}
+.darkTheme a{
+    color: rgb(212, 212, 212);
+}
+.darkTheme .button:hover{
+    border: 1px solid black;
+    color: rgb(212, 212, 212);
+    background-color: rgb(88, 90, 72);
+}
+.darkTheme .button{
+    color:  rgb(212, 212, 212);
+}
+.darkTheme .background{
+    color:rgb(212, 212, 212);
+}
+.darkTheme .line{
+    background-color: #454545;
+}
+.darkTheme .carousel{
+    border: 1px solid rgb(212, 212, 212);
+
+}
+.darkTheme .arrow:hover{
+    background-color: orange;
+}
